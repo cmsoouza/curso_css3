@@ -1,0 +1,40 @@
+/* seletor universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* seletor por tag */
+p {
+  color: #ff0000;
+}
+/* seletor descendente */
+section article h3 {
+  color: #02660f;
+}
+/* seletor por id */
+#background{
+  background-color: #93f0f7;
+}
+/* seletor por class */
+.main-content p {
+  font-size: 50px;
+  font-style: normal;
+}
+.heading {
+  color: #1a0499;
+}
+.main-content {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* classes que serão estilizadas em apenas nos elementos sinalizadas por elas */
+.heading .textfree {
+  font-size: 50px;
+  color: rgb(178, 68, 241);
+}
+/* especificando elemento com classes declaradas */
+h2.spec{
+  color: #b97207;
+}
